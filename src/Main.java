@@ -24,8 +24,8 @@ public abstract class Main {
         }
 
     private static void virajeniya() {
-        int k=0;
-        for(int i = 1;i<10000;i++) {
+        double k=0;
+        for(double i = 1;i<10000;i++) {
             if(i%2==0)
                 k-=1/i;
             else
